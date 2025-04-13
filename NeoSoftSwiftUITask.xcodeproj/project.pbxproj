@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E036D4872DABD8A200D4F5FF /* NeoSoftSwiftUITaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4862DABD8A200D4F5FF /* NeoSoftSwiftUITaskApp.swift */; };
+		E036D4892DABD8A200D4F5FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4882DABD8A200D4F5FF /* ContentView.swift */; };
+		E036D48B2DABD8A400D4F5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E036D48A2DABD8A400D4F5FF /* Assets.xcassets */; };
+		E036D48E2DABD8A400D4F5FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E036D48D2DABD8A400D4F5FF /* Preview Assets.xcassets */; };
+		E036D4982DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4972DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.swift */; };
+		E036D4A22DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4A12DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.swift */; };
+		E036D4A42DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4A32DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITestsLaunchTests.swift */; };
+		E036D4B62DABD9F800D4F5FF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4B52DABD9F800D4F5FF /* DashboardView.swift */; };
+		E036D4B82DABDA8100D4F5FF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4B72DABDA8100D4F5FF /* DashboardViewModel.swift */; };
+		E036D4BA2DABDA9C00D4F5FF /* DashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4B92DABDA9C00D4F5FF /* DashModel.swift */; };
+		E036D4BE2DABDAF500D4F5FF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4BD2DABDAF500D4F5FF /* SearchBarView.swift */; };
+		E036D4C02DABDB0A00D4F5FF /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4BF2DABDB0A00D4F5FF /* BannerView.swift */; };
+		E036D4C22DABDB1E00D4F5FF /* HomeListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4C12DABDB1E00D4F5FF /* HomeListItemView.swift */; };
+		E036D4C42DABDB3200D4F5FF /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D4C32DABDB3200D4F5FF /* BottomSheetView.swift */; };
+		E036D4C62DABEB2A00D4F5FF /* dataitems.json in Resources */ = {isa = PBXBuildFile; fileRef = E036D4C52DABEB2A00D4F5FF /* dataitems.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E036D4942DABD8A400D4F5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E036D47B2DABD8A100D4F5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E036D4822DABD8A200D4F5FF;
+			remoteInfo = NeoSoftSwiftUITask;
+		};
+		E036D49E2DABD8A400D4F5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E036D47B2DABD8A100D4F5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E036D4822DABD8A200D4F5FF;
+			remoteInfo = NeoSoftSwiftUITask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E036D4832DABD8A200D4F5FF /* NeoSoftSwiftUITask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSoftSwiftUITask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E036D4862DABD8A200D4F5FF /* NeoSoftSwiftUITaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUITaskApp.swift; sourceTree = "<group>"; };
+		E036D4882DABD8A200D4F5FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E036D48A2DABD8A400D4F5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E036D48D2DABD8A400D4F5FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E036D4932DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftSwiftUITaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E036D4972DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUITaskTests.swift; sourceTree = "<group>"; };
+		E036D49D2DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftSwiftUITaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E036D4A12DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUITaskUITests.swift; sourceTree = "<group>"; };
+		E036D4A32DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUITaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E036D4B52DABD9F800D4F5FF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E036D4B72DABDA8100D4F5FF /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		E036D4B92DABDA9C00D4F5FF /* DashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashModel.swift; sourceTree = "<group>"; };
+		E036D4BD2DABDAF500D4F5FF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		E036D4BF2DABDB0A00D4F5FF /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		E036D4C12DABDB1E00D4F5FF /* HomeListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListItemView.swift; sourceTree = "<group>"; };
+		E036D4C32DABDB3200D4F5FF /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		E036D4C52DABEB2A00D4F5FF /* dataitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataitems.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E036D4802DABD8A200D4F5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D4902DABD8A400D4F5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D49A2DABD8A400D4F5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E036D47A2DABD8A100D4F5FF = {
+			isa = PBXGroup;
+			children = (
+				E036D4852DABD8A200D4F5FF /* NeoSoftSwiftUITask */,
+				E036D4962DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests */,
+				E036D4A02DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests */,
+				E036D4842DABD8A200D4F5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E036D4842DABD8A200D4F5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4832DABD8A200D4F5FF /* NeoSoftSwiftUITask.app */,
+				E036D4932DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.xctest */,
+				E036D49D2DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E036D4852DABD8A200D4F5FF /* NeoSoftSwiftUITask */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4862DABD8A200D4F5FF /* NeoSoftSwiftUITaskApp.swift */,
+				E036D4882DABD8A200D4F5FF /* ContentView.swift */,
+				E036D4B42DABD9AA00D4F5FF /* MVVM */,
+				E036D48A2DABD8A400D4F5FF /* Assets.xcassets */,
+				E036D4C52DABEB2A00D4F5FF /* dataitems.json */,
+				E036D48C2DABD8A400D4F5FF /* Preview Content */,
+			);
+			path = NeoSoftSwiftUITask;
+			sourceTree = "<group>";
+		};
+		E036D48C2DABD8A400D4F5FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E036D48D2DABD8A400D4F5FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E036D4962DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4972DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.swift */,
+			);
+			path = NeoSoftSwiftUITaskTests;
+			sourceTree = "<group>";
+		};
+		E036D4A02DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4A12DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.swift */,
+				E036D4A32DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITestsLaunchTests.swift */,
+			);
+			path = NeoSoftSwiftUITaskUITests;
+			sourceTree = "<group>";
+		};
+		E036D4B02DABD9AA00D4F5FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4B92DABDA9C00D4F5FF /* DashModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E036D4B12DABD9AA00D4F5FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4B72DABDA8100D4F5FF /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E036D4B22DABD9AA00D4F5FF /* DashBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4B52DABD9F800D4F5FF /* DashboardView.swift */,
+				E036D4BD2DABDAF500D4F5FF /* SearchBarView.swift */,
+				E036D4BF2DABDB0A00D4F5FF /* BannerView.swift */,
+				E036D4C12DABDB1E00D4F5FF /* HomeListItemView.swift */,
+				E036D4C32DABDB3200D4F5FF /* BottomSheetView.swift */,
+			);
+			path = DashBoardView;
+			sourceTree = "<group>";
+		};
+		E036D4B32DABD9AA00D4F5FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4B22DABD9AA00D4F5FF /* DashBoardView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E036D4B42DABD9AA00D4F5FF /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E036D4B02DABD9AA00D4F5FF /* Models */,
+				E036D4B12DABD9AA00D4F5FF /* ViewModel */,
+				E036D4B32DABD9AA00D4F5FF /* Views */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E036D4822DABD8A200D4F5FF /* NeoSoftSwiftUITask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E036D4A72DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITask" */;
+			buildPhases = (
+				E036D47F2DABD8A200D4F5FF /* Sources */,
+				E036D4802DABD8A200D4F5FF /* Frameworks */,
+				E036D4812DABD8A200D4F5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoSoftSwiftUITask;
+			productName = NeoSoftSwiftUITask;
+			productReference = E036D4832DABD8A200D4F5FF /* NeoSoftSwiftUITask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E036D4922DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E036D4AA2DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITaskTests" */;
+			buildPhases = (
+				E036D48F2DABD8A400D4F5FF /* Sources */,
+				E036D4902DABD8A400D4F5FF /* Frameworks */,
+				E036D4912DABD8A400D4F5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E036D4952DABD8A400D4F5FF /* PBXTargetDependency */,
+			);
+			name = NeoSoftSwiftUITaskTests;
+			productName = NeoSoftSwiftUITaskTests;
+			productReference = E036D4932DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E036D49C2DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E036D4AD2DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITaskUITests" */;
+			buildPhases = (
+				E036D4992DABD8A400D4F5FF /* Sources */,
+				E036D49A2DABD8A400D4F5FF /* Frameworks */,
+				E036D49B2DABD8A400D4F5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E036D49F2DABD8A400D4F5FF /* PBXTargetDependency */,
+			);
+			name = NeoSoftSwiftUITaskUITests;
+			productName = NeoSoftSwiftUITaskUITests;
+			productReference = E036D49D2DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E036D47B2DABD8A100D4F5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E036D4822DABD8A200D4F5FF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E036D4922DABD8A400D4F5FF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E036D4822DABD8A200D4F5FF;
+					};
+					E036D49C2DABD8A400D4F5FF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E036D4822DABD8A200D4F5FF;
+					};
+				};
+			};
+			buildConfigurationList = E036D47E2DABD8A100D4F5FF /* Build configuration list for PBXProject "NeoSoftSwiftUITask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E036D47A2DABD8A100D4F5FF;
+			productRefGroup = E036D4842DABD8A200D4F5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E036D4822DABD8A200D4F5FF /* NeoSoftSwiftUITask */,
+				E036D4922DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests */,
+				E036D49C2DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E036D4812DABD8A200D4F5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E036D4C62DABEB2A00D4F5FF /* dataitems.json in Resources */,
+				E036D48E2DABD8A400D4F5FF /* Preview Assets.xcassets in Resources */,
+				E036D48B2DABD8A400D4F5FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D4912DABD8A400D4F5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D49B2DABD8A400D4F5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E036D47F2DABD8A200D4F5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E036D4C22DABDB1E00D4F5FF /* HomeListItemView.swift in Sources */,
+				E036D4C02DABDB0A00D4F5FF /* BannerView.swift in Sources */,
+				E036D4C42DABDB3200D4F5FF /* BottomSheetView.swift in Sources */,
+				E036D4BA2DABDA9C00D4F5FF /* DashModel.swift in Sources */,
+				E036D4892DABD8A200D4F5FF /* ContentView.swift in Sources */,
+				E036D4B62DABD9F800D4F5FF /* DashboardView.swift in Sources */,
+				E036D4872DABD8A200D4F5FF /* NeoSoftSwiftUITaskApp.swift in Sources */,
+				E036D4BE2DABDAF500D4F5FF /* SearchBarView.swift in Sources */,
+				E036D4B82DABDA8100D4F5FF /* DashboardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D48F2DABD8A400D4F5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E036D4982DABD8A400D4F5FF /* NeoSoftSwiftUITaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E036D4992DABD8A400D4F5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E036D4A42DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITestsLaunchTests.swift in Sources */,
+				E036D4A22DABD8A400D4F5FF /* NeoSoftSwiftUITaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E036D4952DABD8A400D4F5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E036D4822DABD8A200D4F5FF /* NeoSoftSwiftUITask */;
+			targetProxy = E036D4942DABD8A400D4F5FF /* PBXContainerItemProxy */;
+		};
+		E036D49F2DABD8A400D4F5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E036D4822DABD8A200D4F5FF /* NeoSoftSwiftUITask */;
+			targetProxy = E036D49E2DABD8A400D4F5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E036D4A52DABD8A400D4F5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E036D4A62DABD8A400D4F5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E036D4A82DABD8A400D4F5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoSoftSwiftUITask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E036D4A92DABD8A400D4F5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeoSoftSwiftUITask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E036D4AB2DABD8A400D4F5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSoftSwiftUITask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSoftSwiftUITask";
+			};
+			name = Debug;
+		};
+		E036D4AC2DABD8A400D4F5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSoftSwiftUITask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSoftSwiftUITask";
+			};
+			name = Release;
+		};
+		E036D4AE2DABD8A400D4F5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSoftSwiftUITask;
+			};
+			name = Debug;
+		};
+		E036D4AF2DABD8A400D4F5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftSwiftUITaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSoftSwiftUITask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E036D47E2DABD8A100D4F5FF /* Build configuration list for PBXProject "NeoSoftSwiftUITask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D4A52DABD8A400D4F5FF /* Debug */,
+				E036D4A62DABD8A400D4F5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E036D4A72DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D4A82DABD8A400D4F5FF /* Debug */,
+				E036D4A92DABD8A400D4F5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E036D4AA2DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D4AB2DABD8A400D4F5FF /* Debug */,
+				E036D4AC2DABD8A400D4F5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E036D4AD2DABD8A400D4F5FF /* Build configuration list for PBXNativeTarget "NeoSoftSwiftUITaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E036D4AE2DABD8A400D4F5FF /* Debug */,
+				E036D4AF2DABD8A400D4F5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E036D47B2DABD8A100D4F5FF /* Project object */;
+}

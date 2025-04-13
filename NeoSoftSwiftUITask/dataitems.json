@@ -1,0 +1,68 @@
+[
+  {
+    "image": "img0",
+    "data": [
+      { "title": "Swift Basics 1", "desc": "Learn about variables", "image": "img0" },
+      { "title": "Swift Basics 2", "desc": "Understand loops", "image": "img0" },
+      { "title": "Swift Basics 3", "desc": "Intro to functions", "image": "img0" },
+      { "title": "Swift Basics 4", "desc": "Optionals explained", "image": "img0" },
+      { "title": "Swift Basics 5", "desc": "Learn about variables", "image": "img0" },
+      { "title": "Swift Basics 6", "desc": "Understand loops", "image": "img0" },
+      { "title": "Swift Basics 7", "desc": "Intro to functions", "image": "img0" },
+      { "title": "Swift Basics 8", "desc": "Optionals explained", "image": "img0" }
+    ]
+  },
+  {
+    "image": "img1",
+    "data": [
+      { "title": "UIKit Tricks 1", "desc": "AutoLayout deep dive", "image": "img1" },
+      { "title": "UIKit Tricks 2", "desc": "Custom UITableView", "image": "img1" },
+      { "title": "UIKit Tricks 3", "desc": "CollectionView pagination", "image": "img1" },
+      { "title": "UIKit Tricks 4", "desc": "Keyboard handling", "image": "img1" },
+      { "title": "UIKit Tricks 5", "desc": "AutoLayout deep dive", "image": "img1" },
+      { "title": "UIKit Tricks 6", "desc": "Custom UITableView", "image": "img1" },
+      { "title": "UIKit Tricks 7", "desc": "CollectionView pagination", "image": "img1" },
+      { "title": "UIKit Tricks 8", "desc": "Keyboard handling", "image": "img1" }
+    ]
+  },
+  {
+    "image": "img2",
+    "data": [
+      { "title": "Combine Usage 1", "desc": "Publishers & Subscribers", "image": "img2" },
+      { "title": "Combine Usage 2", "desc": "Debounce explained", "image": "img2" },
+      { "title": "Combine Usage 3", "desc": "Chaining operators", "image": "img2" },
+      { "title": "Combine Usage 4", "desc": "Error handling", "image": "img2" },
+      { "title": "Combine Usage 5", "desc": "Publishers & Subscribers", "image": "img2" },
+      { "title": "Combine Usage 6", "desc": "Debounce explained", "image": "img2" },
+      { "title": "Combine Usage 7", "desc": "Chaining operators", "image": "img2" },
+      { "title": "Combine Usage 8", "desc": "Error handling", "image": "img2" }
+    ]
+  },
+  {
+    "image": "img3",
+    "data": [
+      { "title": "SwiftUI Views 1", "desc": "NavigationStack", "image": "img3" },
+      { "title": "SwiftUI Views 2", "desc": "View modifiers", "image": "img3" },
+      { "title": "SwiftUI Views 3", "desc": "Animations in SwiftUI", "image": "img3" },
+      { "title": "SwiftUI Views 4", "desc": "Custom shapes", "image": "img3" },
+      { "title": "SwiftUI Views 5", "desc": "NavigationStack", "image": "img3" },
+      { "title": "SwiftUI Views 6", "desc": "View modifiers", "image": "img3" },
+      { "title": "SwiftUI Views 7", "desc": "Animations in SwiftUI", "image": "img3" },
+      { "title": "SwiftUI Views 8", "desc": "Custom shapes", "image": "img3" }
+    ]
+  },
+  {
+    "image": "img4",
+    "data": [
+      { "title": "Networking Tips 1", "desc": "GET & POST requests", "image": "img4" },
+      { "title": "Networking Tips 2", "desc": "Using URLSession", "image": "img4" },
+      { "title": "Networking Tips 3", "desc": "Handle JSON", "image": "img4" },
+      { "title": "Networking Tips 4", "desc": "Combine + Networking", "image": "img4" },
+      { "title": "Networking Tips 5", "desc": "GET & POST requests", "image": "img4" },
+      { "title": "Networking Tips 6", "desc": "Using URLSession", "image": "img4" },
+      { "title": "Networking Tips 7", "desc": "Handle JSON", "image": "img4" },
+      { "title": "Networking Tips 8", "desc": "Combine + Networking", "image": "img4" }
+    ]
+  }
+]
+
